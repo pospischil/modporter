@@ -1,5 +1,5 @@
 # Location of apxs
-APXS = ENV['APXS'] || 'apxs'
+APXS = ENV['APXS'] || 'apxs2'
 
 # You may need to adjust the path here.
 APREQ_INCLUDES = `apreq2-config --includes`.strip
